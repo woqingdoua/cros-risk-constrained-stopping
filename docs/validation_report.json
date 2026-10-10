@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-10-10",
+  "release_status": "validated content snapshot; publication tracked separately in delivery report",
+  "python_environment": "clean Python 3.11 analysis-tier venv, no system-site-packages; only already installed declared dependencies/transitives linked; Torch/PEFT/Transformers unavailable; optional adapter separately tested with Torch 2.5.1",
+  "syntax_checked_python_files": 23,
+  "synthetic_smoke": "PASS",
+  "security_scan_findings": [],
+  "security_scan_scope": [
+    "original personal/server filesystem paths",
+    "common GitHub/AWS credential patterns",
+    "private key headers",
+    "prohibited clinical/benchmark/model/log archive file extensions"
+  ],
+  "manual_data_review": "aggregate filenames/content reviewed; no item-level clinical/benchmark arrays, identifiers, raw questions or model weights in release",
+  "full_experiments": "not rerun; no model downloads, inference or training",
+  "unit_test_status": "lightweight controller checks passed in a clean analysis-only environment without Torch/PEFT/Transformers; optional Torch adapter check separately passed",
+  "license_status": "no blanket license assigned; upstream LA-CDM remains a separately authorized external dependency; patches excluded"
+}

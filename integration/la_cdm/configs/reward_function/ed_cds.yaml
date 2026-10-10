@@ -1,0 +1,29 @@
+reward_functions:
+  - _target_: src.reward_function.diagnosis_reward.DiagnosisReward
+    correct_reward: 1.0
+    incorrect_reward: 0.0
+    undiagnosed_reward: 0.0
+  - _target_: src.reward_function.format_reward.FormatReward
+    invalid_reward: 0.0
+    valid_reward: 1.0
+  - _target_: src.reward_function.test_cost_reward.TestCostReward
+    test_cost:
+      complete blood count: -0.019268
+      metabolic panel: -0.023121
+      hepatic panel: -0.023121
+      lipase: -0.019268
+      urinalysis: -0.015414
+      microbiology: -0.057803
+      radiograph: -0.077071
+      ultrasound: -0.115607
+      ct: -0.231214
+      mri: -0.385356
+      recheck vitals: -0.003854
+      ecg: -0.028902
+    single_cost: false
+
+conf_cal_reward_func:
+  _target_: src.reward_function.conf_cal_reward.ConfidenceCalibrationReward
+  oof_reward: -1.0
+  reward_scale: 1.0
+  correctness_bonus: 0.0

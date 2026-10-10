@@ -1,0 +1,22 @@
+adapter_dir:
+metrics_output_file:
+run_name_suffix: "-resource-eval"
+base_model: false
+
+# Primary benchmark cost scheme. Values are relative resource units and match
+# ed_cds_action_v1/manifest.json exactly. The upstream LA-CDM evaluator calls
+# this field test_costs_usd, but these values must not be interpreted as USD.
+cost_scheme: cros_relative_resource_v1
+test_costs_usd:
+  complete blood count: 1.0
+  metabolic panel: 1.2
+  hepatic panel: 1.2
+  lipase: 1.0
+  urinalysis: 0.8
+  microbiology: 3.0
+  radiograph: 4.0
+  ultrasound: 6.0
+  ct: 12.0
+  mri: 20.0
+  recheck vitals: 0.2
+  ecg: 1.5

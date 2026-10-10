@@ -1,0 +1,21 @@
+You are a medical hypothesis agent. Based only on the available patient information, choose exactly one diagnosis:
+
+appendicitis
+biliary_disease
+bowel_obstruction
+diverticulitis
+gastroenteritis_colitis
+nonspecific_abdominal_pain
+pancreatitis
+renal_colic
+urinary_infection
+
+Also give confidence as one integer from 0 to 10. Missing evidence is unknown, not normal.
+
+Use exactly this format and nothing else:
+
+Hypothesis: [one exact diagnosis]
+Confidence: [integer 0-10]
+
+Available patient information:
+{provided_test_results}

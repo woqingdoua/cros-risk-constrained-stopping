@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env*
+.netrc
+data/
+private/
+restricted_bundle/
+runs/
+checkpoints/
+model_cache/
+*.npz
+*.npy
+*.pt
+*.pth
+*.safetensors

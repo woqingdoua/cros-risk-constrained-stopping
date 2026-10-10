@@ -1,0 +1,26 @@
+# @package _global_
+
+experiment:
+  name: la-cdm-ed-cds-full-v1
+  tags: [ed-cds, full-port, development-only]
+
+training:
+  num_train_epochs: 4
+  # Full generation-based validation takes about 27 minutes on 165 episodes.
+  # Evaluate/save once per epoch so the 3,740-step run fits the 24-hour limit.
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  save_total_limit: 5
+  logging_steps: 1
+  loss_schedule:
+    phases:
+      - name: "da"
+        steps: 100
+        learning_rate: 1e-5
+      - name: "ha_sft"
+        steps: 100
+        learning_rate: 1e-5
+      - name: "ha_conf_cal"
+        steps: 100
+        learning_rate: 1e-5
+    repeat: true

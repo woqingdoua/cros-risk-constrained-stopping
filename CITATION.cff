@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the GenAI4Health 2026 paper when using this research code."
+type: software
+title: "Safe to Stop? Risk-Constrained Stopping for Sequential Clinical Diagnosis Agents"
+authors:
+  - family-names: Wu
+    given-names: Yuexin
+  - family-names: Rus
+    given-names: Vasile

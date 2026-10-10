@@ -1,0 +1,6 @@
+prompt_template_file: prompts/decision_agent_ed_cds.txt
+hypothesis_prompt_template_file: prompts/hypothesis_agent_ed_cds.txt
+generate_hypothesis: true
+generate_confidence_calibration: true
+max_length: 4096
+max_steps: 13

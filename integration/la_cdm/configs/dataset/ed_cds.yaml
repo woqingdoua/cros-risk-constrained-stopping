@@ -1,0 +1,44 @@
+format: ed_cds_jsonl
+train_data_file: ${oc.env:CROS_DATA_ROOT}/la_cdm_train_v1/train_episodes.jsonl.gz
+val_data_file: ${oc.env:CROS_DATA_ROOT}/la_cdm_train_v1/validation_episodes.jsonl.gz
+test_data_file: ${oc.env:CROS_DATA_ROOT}/la_cdm_train_v1/validation_episodes.jsonl.gz
+lab_test_mapping_file: null
+lab_tests:
+  - Complete Blood Count
+  - Metabolic Panel
+  - Hepatic Panel
+  - Lipase
+  - Urinalysis
+  - Microbiology
+imaging_tests:
+  - Radiograph
+  - Ultrasound
+  - CT
+  - MRI
+other_tests:
+  - Recheck Vitals
+  - ECG
+disease_list:
+  - appendicitis
+  - biliary_disease
+  - bowel_obstruction
+  - diverticulitis
+  - gastroenteritis_colitis
+  - nonspecific_abdominal_pain
+  - pancreatitis
+  - renal_colic
+  - urinary_infection
+test_name_to_action_key:
+  Complete Blood Count: cbc
+  Metabolic Panel: metabolic_panel
+  Hepatic Panel: hepatic_panel
+  Lipase: lipase
+  Urinalysis: urinalysis
+  Microbiology: microbiology
+  Radiograph: xray
+  Ultrasound: ultrasound
+  CT: ct
+  MRI: mri
+  Recheck Vitals: recheck_vitals
+  ECG: ecg
+small_sample: false

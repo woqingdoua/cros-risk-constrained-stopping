@@ -1,0 +1,193 @@
+{
+  "status": "EXPLORATORY_CACHED_SAME_ACCEPTED_PATIENT_ANALYSIS",
+  "input_sha256": "2507a4e8491dab6d92083a23d64db82fd2a795f4162bed0525bc16df9c463442",
+  "script_sha256": "2b799edd9b48b6f6ffbc1e5b6406ed4951d809170b2cdb786cf3cd076e10d5fc",
+  "extractor_provenance": {
+    "source_sha256": {
+      "policy_outcomes.csv": "a14939975b05941e6f48ba3f6e001ccff11051226acb59f48580cdddb14064a6",
+      "ranker_states.csv": "bb835ec19374d1d02db664d05392e9851020c6fffce5c9cfa538a472eb082ef5",
+      "evaluator.py": "e1acfc26796b857e7c3ce57f600b76c59c4c201cc74afa10df7b4eaafd92eb05",
+      "loader.py": "c0d014f8d98469730e9698c26e5c6fc8ff911f43dd878360af24d2ae9eb57361",
+      "freeze_manifest.json": "aad764f748363de164a74012b5ad2630df93072ef6af9da91fff0919b714e904",
+      "candidate_specs.json": "fdd9a5f3cd99bac5e55b8aa83350ae4e2b93abd10c894973c45a95614b3954f6",
+      "fixed_order.json": "ce2f9d29571448b8aa113f235f593a4689a5c9a9da870b5c7c1f6de28059a837",
+      "provenance_audit.json": "ab9338fad7bb0926433a107bdbaeeb715019e640abec64cef8a9d97a092a1a49",
+      "split_audit.json": "a59b4d96c0dcfcfef121e3bfa8816a3b89b8e1b7b15dbc2b9ea5f8a1b0cf51e3",
+      "policy_selection.json": "1a6d54a66aa7c709e2493f8310554a2c2d42e5b279a085c4d23b6debf6f6d882",
+      "extractor.py": "079b5a96891c45a837c4824b9b755fcea32dc40a6909f957190d4cdca4e980fa",
+      "analysis.py": "2b799edd9b48b6f6ffbc1e5b6406ed4951d809170b2cdb786cf3cd076e10d5fc",
+      "locked_test/shard_00.npz": "a92c9c7fb391dacd2896630d8560f34aaa3cf077c20e28ce118fc8313804c1d5",
+      "locked_test/shard_01.npz": "ced36a5a597769d970fc7b0f58eeda725063cec6f61732c9b008421cc18205a4",
+      "locked_test/shard_02.npz": "8e91eef147a8679667c8bd7ad2e500c435a61a945a0667ae9eb5e31ff8b13439",
+      "locked_test/shard_03.npz": "6946de24887801e23fdd800bbe5e5fd54ace107c75dcb66b7caaa7752022fee6",
+      "locked_test/shard_04.npz": "9c6363a9d9248e4206ce0a9898cbbc5676706dd537ede7ecfbaa0ad895d3a89c",
+      "locked_test/shard_05.npz": "3d0158b8bb8eef8431273645dd3ef7dbddc9d79f21e5d02a560d41ae1e6e444e",
+      "locked_test/shard_06.npz": "3a2ebb470fe9bc7607029122edc0fbb41a894bd54f1671dda64ed4f20e19b340",
+      "locked_test/shard_07.npz": "40c7dbef0e59d0025f0fbe0b0250abfe585315d0dc75ad243bb3a17b4570c636",
+      "locked_test/shard_08.npz": "aedad1f90ff1e29ba343839e500b2959d116f012b7ed544efa4c71e1a90b8ca2",
+      "locked_test/shard_09.npz": "a4a7a4cd382a396b3f941afcee0bea3ce1c6b9ef448b9a0c7e7ebef68b8bcfb7",
+      "locked_test/shard_10.npz": "ea331c9ba8509cd010d2162bd5586640817af769eb3ce33b639d7dfec70d0743"
+    },
+    "extraction_command": "python3 cros_mix_validation/results/reviewer_same_accepted_20261010T012834Z/extract_verified_same_accepted.py --root cros_mix_validation --run-dir cros_mix_validation/results/reviewer_same_accepted_20261010T012834Z",
+    "validation": {
+      "all_4771_patient_stage_probabilities_and_errors_match_shards": true,
+      "all_primitive_patient_acceptance_stages_errors_and_costs_match": true,
+      "all_original_mix_terminal_fields_match_per_patient": true,
+      "all_terminal_errors_match_their_mapped_stopping_states": true,
+      "whole_cohort_stage0_full_errors": [
+        104,
+        126
+      ],
+      "one_episode_per_patient_preserved_audit_verified": true
+    },
+    "policy_provenance": {
+      "CROS-Det": {
+        "legacy_alias": "CROS-FULL",
+        "frozen_policy": "risk_rank:h=3:tau=0.3286273681",
+        "horizon": 3,
+        "full_precision_threshold": 0.3286273680615815,
+        "accepted_n": 297,
+        "stopping_errors": 52
+      },
+      "CROS-Mix-realized": {
+        "original_assignment_verified": true,
+        "assignment_sha256": "8c2d381d9a6288a1f28dc9d6f36833725d1cadeae796db44c2f0ab69421beb8f",
+        "assignment_source": {
+          "method": "exact reconstruction; no historical vector retained",
+          "original_evaluator_sha256": "e1acfc26796b857e7c3ce57f600b76c59c4c201cc74afa10df7b4eaafd92eb05",
+          "loader_sha256": "c0d014f8d98469730e9698c26e5c6fc8ff911f43dd878360af24d2ae9eb57361",
+          "rng": "numpy.random.default_rng / PCG64",
+          "numpy_version": "1.26.4",
+          "historical_numpy_version_recorded": false,
+          "seed": 20260905,
+          "support": [
+            "risk_rank:h=1:tau=0.3804980408",
+            "risk_rank:h=1:tau=0.4506067996",
+            "risk_rank:h=3:tau=0.3286273681"
+          ],
+          "support_candidate_indices": [
+            11,
+            13,
+            34
+          ],
+          "weights": [
+            0.3222222222222221,
+            0.04444444444444492,
+            0.633333333333333
+          ],
+          "row_order": "sorted shards; concatenate; argsort(global_indices)",
+          "row_order_sha256": "5b1436f74dc809fd44c3969a3772d51327c5b68342ddd1c42dcad015e4d42408",
+          "assignment_encoding": "little-endian int64 frozen candidate indices in global-index order",
+          "per_patient_reference_function_check": "all six original apply_mix fields equal direct assigned primitive fields"
+        },
+        "accepted_n": 288,
+        "stopping_errors": 47
+      }
+    },
+    "interpretation": "Retrospective exploratory comparison within each fixed accepted cohort; no retuning or new safety certificate.",
+    "full_workup_semantics": "stage 12 on the frozen cached common path, including recorded missing-result behavior"
+  },
+  "bootstrap_seed": 20261010,
+  "bootstrap_replicates": 10000,
+  "interval": "paired patient percentile bootstrap within frozen accepted subset",
+  "unavailable_controllers": [],
+  "results": [
+    {
+      "policy": "CROS-Det",
+      "evaluation_n": 367,
+      "accepted_n": 297,
+      "coverage": 0.8092643051771117,
+      "stage_errors": {
+        "stage0": {
+          "errors": 58,
+          "risk": 0.19528619528619529,
+          "paired_bootstrap_95_ci": [
+            0.15151515151515152,
+            0.24242424242424243
+          ]
+        },
+        "stopping": {
+          "errors": 52,
+          "risk": 0.1750841750841751,
+          "paired_bootstrap_95_ci": [
+            0.13459595959595966,
+            0.21885521885521886
+          ]
+        },
+        "full_workup": {
+          "errors": 72,
+          "risk": 0.24242424242424243,
+          "paired_bootstrap_95_ci": [
+            0.19528619528619529,
+            0.2895622895622896
+          ]
+        }
+      },
+      "paired_differences": {
+        "stopping_minus_stage0": {
+          "difference": -0.020202020202020193,
+          "paired_bootstrap_95_ci": [
+            -0.04713804713804712,
+            0.0033670033670033794
+          ]
+        },
+        "stopping_minus_full_workup": {
+          "difference": -0.06734006734006734,
+          "paired_bootstrap_95_ci": [
+            -0.1111111111111111,
+            -0.026936026936026924
+          ]
+        }
+      }
+    },
+    {
+      "policy": "CROS-Mix-realized",
+      "evaluation_n": 367,
+      "accepted_n": 288,
+      "coverage": 0.784741144414169,
+      "stage_errors": {
+        "stage0": {
+          "errors": 50,
+          "risk": 0.1736111111111111,
+          "paired_bootstrap_95_ci": [
+            0.13194444444444445,
+            0.21875
+          ]
+        },
+        "stopping": {
+          "errors": 47,
+          "risk": 0.16319444444444445,
+          "paired_bootstrap_95_ci": [
+            0.12152777777777778,
+            0.2048611111111111
+          ]
+        },
+        "full_workup": {
+          "errors": 65,
+          "risk": 0.22569444444444445,
+          "paired_bootstrap_95_ci": [
+            0.18055555555555555,
+            0.2743055555555556
+          ]
+        }
+      },
+      "paired_differences": {
+        "stopping_minus_stage0": {
+          "difference": -0.010416666666666657,
+          "paired_bootstrap_95_ci": [
+            -0.03472222222222221,
+            0.010416666666666685
+          ]
+        },
+        "stopping_minus_full_workup": {
+          "difference": -0.0625,
+          "paired_bootstrap_95_ci": [
+            -0.10416666666666669,
+            -0.020833333333333343
+          ]
+        }
+      }
+    }
+  ],
+  "release_note": "Only original server filesystem prefixes were made relative; all numeric aggregate results, source hashes and reconstruction metadata are retained. original_assignment_verified describes reconstruction agreement, not historical bitwise identity."
+}

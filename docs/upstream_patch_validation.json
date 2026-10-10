@@ -1,0 +1,26 @@
+{
+  "upstream": "https://github.com/dharouni/LA-CDM",
+  "commit": "3f435a10f569c3255172c1ef8fe7880c6edb7fee",
+  "patch_application": "privately verified historical patch; not distributed",
+  "all_patched_hashes_match_retained_server": "passed",
+  "modified_upstream_files": {
+    "src/train.py": {
+      "upstream": "7395690f43e9f10579cb3d58b20ae1209cd64f64cf0c52f801102ed906249f60",
+      "patched": "79c16ff418342b4182c1a0ece19278076b204876aebc50155a24f0eb0223ad0f"
+    },
+    "src/trainer/cdm_grpo_trainer.py": {
+      "upstream": "1f94732af8c67ae9e7788e54a233ccbddb51da8d6d2a5d0f2f95d84e8c5b2c03",
+      "patched": "6b4b23c1fb8dfe2a69781403c65560ed84e370ba8e439b8793308c421c1bbb3e"
+    },
+    "src/utils/setup.py": {
+      "upstream": "384ac4de93bd7d03e6428eb738d8efb91e80dab1a057cc8a621e3959ac683465",
+      "patched": "bde4fbe0689f7a0059dabb34c7fb93eaf32469fcb09190b33c476b2616e9142d"
+    },
+    "pyproject.toml": {
+      "upstream": "665030984931d5f5e2c5fd96eb945bde209af6da0729f6dc1ff08e6a59a56abe",
+      "patched": "61ed75ea6aa48b636722a913578e61a2e082380c34f9f9db9e1031ea362899f2"
+    }
+  },
+  "upstream_not_vendored": true,
+  "public_bundle": "author-created additions and manual instructions only; upstream code and patches excluded"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "path": "cros_mix_validation/extract_verified_same_accepted.py",
+    "source_sha256": "079b5a96891c45a837c4824b9b755fcea32dc40a6909f957190d4cdca4e980fa",
+    "release_sha256": "621045439481144626bba01300c597fd4bc6eebf55a8b87fdd08c5986a772afd",
+    "change": "release packaging/documentation correction; scientific method unchanged"
+  },
+  {
+    "path": "cros_mix_validation/evaluate_cros_power_v2.py",
+    "source_sha256": "e1acfc26796b857e7c3ce57f600b76c59c4c201cc74afa10df7b4eaafd92eb05",
+    "release_sha256": "e1acfc26796b857e7c3ce57f600b76c59c4c201cc74afa10df7b4eaafd92eb05",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/build_ed_cds_action_benchmark.py",
+    "source_sha256": "be2bf9d2d5fb5c8be88151ad3475cea6916b74f794533992ea8e22eed4506052",
+    "release_sha256": "be2bf9d2d5fb5c8be88151ad3475cea6916b74f794533992ea8e22eed4506052",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/run_ed_cds_action_pilot.py",
+    "source_sha256": "2526d42bf19315f2ea15f8ee6a165964e0dc34975a16ba66248b801beccf0a4b",
+    "release_sha256": "2526d42bf19315f2ea15f8ee6a165964e0dc34975a16ba66248b801beccf0a4b",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/evaluate_la_cdm_common_backbone_dev.py",
+    "source_sha256": "c0d014f8d98469730e9698c26e5c6fc8ff911f43dd878360af24d2ae9eb57361",
+    "release_sha256": "c0d014f8d98469730e9698c26e5c6fc8ff911f43dd878360af24d2ae9eb57361",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/analyze_same_accepted_cached.py",
+    "source_sha256": "2b799edd9b48b6f6ffbc1e5b6406ed4951d809170b2cdb786cf3cd076e10d5fc",
+    "release_sha256": "2b799edd9b48b6f6ffbc1e5b6406ed4951d809170b2cdb786cf3cd076e10d5fc",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/evaluate_ed_cds_locked_calibration.py",
+    "source_sha256": "e4496857c75d185981c627166141ed06d8082b28ea766042f4ef448a2e5ff7a9",
+    "release_sha256": "e4496857c75d185981c627166141ed06d8082b28ea766042f4ef448a2e5ff7a9",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/ed_cds_action_env.py",
+    "source_sha256": "e6a617c82d982273f8d354504f7a65c9b37e76f4aed497fb142bb68c6cc3a563",
+    "release_sha256": "e6a617c82d982273f8d354504f7a65c9b37e76f4aed497fb142bb68c6cc3a563",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/evaluate_ed_cds_sequential_development.py",
+    "source_sha256": "abaeef8d501a30ad55729f3c22a7de56ef3669931fca3f5837c60d5dfe37047b",
+    "release_sha256": "abaeef8d501a30ad55729f3c22a7de56ef3669931fca3f5837c60d5dfe37047b",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/run_ed_cds_selective_sequential_pilot.py",
+    "source_sha256": "5bde6450a47a635fe3ae5f9cea08774773850155c5ee96238e8593a205ef7926",
+    "release_sha256": "5bde6450a47a635fe3ae5f9cea08774773850155c5ee96238e8593a205ef7926",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/score_ed_cds_sequential_state.py",
+    "source_sha256": "45f59dbd7928348e796fcdc8b1306ce2a5f27dc3543d531cf85c9d0f3341f052",
+    "release_sha256": "45f59dbd7928348e796fcdc8b1306ce2a5f27dc3543d531cf85c9d0f3341f052",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/validate_cros_mix.py",
+    "source_sha256": "704471989c5d448fd11d1501c1b918b33a6d68eb50997268100a31201f28f9fc",
+    "release_sha256": "704471989c5d448fd11d1501c1b918b33a6d68eb50997268100a31201f28f9fc",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/freeze_ed_cds_selective_protocol.py",
+    "source_sha256": "5e8df319c5896d2653af3a33d7ed2c4a1e9bb24357d2caf6b4e2bb0dd870489e",
+    "release_sha256": "5e8df319c5896d2653af3a33d7ed2c4a1e9bb24357d2caf6b4e2bb0dd870489e",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/evaluate_ed_cds_locked_test.py",
+    "source_sha256": "3f7ed32c3661957e8ac217515c405aeb7a85893860ad4fff88d71a69715e4e99",
+    "release_sha256": "3f7ed32c3661957e8ac217515c405aeb7a85893860ad4fff88d71a69715e4e99",
+    "change": "unchanged"
+  },
+  {
+    "path": "cros_mix_validation/verify_cros_power_v2.py",
+    "source_sha256": "e7b074843a890af5143c4bf0b0744dd554c67025466fa5ba7b203e11e4da420b",
+    "release_sha256": "e7b074843a890af5143c4bf0b0744dd554c67025466fa5ba7b203e11e4da420b",
+    "change": "unchanged"
+  },
+  {
+    "path": "requirements.txt",
+    "release_sha256": "f1f307deca920b5ce58d8e6633e00089dc287fc4dd200835db992e7e08dea25b",
+    "source_sha256": "f1f307deca920b5ce58d8e6633e00089dc287fc4dd200835db992e7e08dea25b",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/configs/reward_function/ed_cds.yaml",
+    "release_sha256": "268ca7d236b420088cbc33d5dc1e8829c47819f77c8313586308fb35d127cf7f",
+    "source_sha256": "268ca7d236b420088cbc33d5dc1e8829c47819f77c8313586308fb35d127cf7f",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/configs/dataset/ed_cds.yaml",
+    "release_sha256": "e55f838cd9f1659ef8de23e2c7ca1a1d71fc57c0dd5e1c6c8366a12314d6701e",
+    "source_sha256": "9747336b31c49f073afc60b58bc98cabf0fe15cc0085261bdadbe6f443ebbc46",
+    "change": "server filesystem prefix replaced with required CROS_DATA_ROOT environment variable; scientific configuration unchanged"
+  },
+  {
+    "path": "integration/la_cdm/configs/environment/ed_cds.yaml",
+    "release_sha256": "8d21678e7559369da78bd0c37edb2a7949c82cc2f22a8b57ba3f1734953fd0d5",
+    "source_sha256": "8d21678e7559369da78bd0c37edb2a7949c82cc2f22a8b57ba3f1734953fd0d5",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/configs/evaluation/ed_cds_resource.yaml",
+    "release_sha256": "1c37d31b748f0090c31445a481bcb2d6b244b38a20db490191c86023cdcb265f",
+    "source_sha256": "1c37d31b748f0090c31445a481bcb2d6b244b38a20db490191c86023cdcb265f",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/configs/experiment/ed_cds_full.yaml",
+    "release_sha256": "0a52f6f39af7191b83c724ca32a88a953d82939b2df76f7f6ecae53816f5c9fb",
+    "source_sha256": "0a52f6f39af7191b83c724ca32a88a953d82939b2df76f7f6ecae53816f5c9fb",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/prompts/decision_agent_ed_cds.txt",
+    "release_sha256": "66e37924c0f6fec72c2d857b3714ba0054436d943768339ba1d39a4e3a714fcf",
+    "source_sha256": "66e37924c0f6fec72c2d857b3714ba0054436d943768339ba1d39a4e3a714fcf",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/prompts/hypothesis_agent_ed_cds.txt",
+    "release_sha256": "253119e3ec0a7d494bbe5cae34320586b3717fa179f0902a428a35a75eb4c9b8",
+    "source_sha256": "253119e3ec0a7d494bbe5cae34320586b3717fa179f0902a428a35a75eb4c9b8",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "integration/la_cdm/src/dataset/ed_cds_dataset.py",
+    "release_sha256": "3226d9b5d414ecd3c8e59f1c65e138909a03a0e28d697fc3b05521d1c1814185",
+    "source_sha256": "3226d9b5d414ecd3c8e59f1c65e138909a03a0e28d697fc3b05521d1c1814185",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "tests/synthetic_smoke.py",
+    "release_sha256": "7b5343b6f72bcdbe32dc1bb6bebed817060df38bae374716ce7ebdfd8977cab3",
+    "change": "release packaging/documentation correction; scientific method unchanged"
+  },
+  {
+    "path": "cros_mix_validation/score_la_cdm_common_path_shard.py",
+    "release_sha256": "62430775cf1b4eaeb0fa2dc80712704105759dc8c10319e846d221d36ca50b30",
+    "source_sha256": "62430775cf1b4eaeb0fa2dc80712704105759dc8c10319e846d221d36ca50b30",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "cros_mix_validation/materialize_la_cdm_development_split.py",
+    "release_sha256": "d09b9e8c9eaea87281566ca52a2c81d0c8ea68d916aabeec25cbca45545767bd",
+    "source_sha256": "d09b9e8c9eaea87281566ca52a2c81d0c8ea68d916aabeec25cbca45545767bd",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "cros_mix_validation/evaluate_cros_vs_la_cdm_frozen.py",
+    "release_sha256": "fefbdefe202b69efb42eee78700419b33bcb812b916bf6a043e2dfe64e9c294d",
+    "source_sha256": "fefbdefe202b69efb42eee78700419b33bcb812b916bf6a043e2dfe64e9c294d",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "cros_mix_validation/verify_cros_vs_la_cdm_frozen.py",
+    "release_sha256": "9d59fff37ee85191d64ac30d70f4e4ceab31c5b1a346052ddd7543eb4ed45e0b",
+    "source_sha256": "9d59fff37ee85191d64ac30d70f4e4ceab31c5b1a346052ddd7543eb4ed45e0b",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "cros_mix_validation/score_la_cdm_zs_port_shard.py",
+    "release_sha256": "dbd90899424ff6de15277b5749790ddd8f4cceb7779de9da42ae7ba332b4909b",
+    "source_sha256": "dbd90899424ff6de15277b5749790ddd8f4cceb7779de9da42ae7ba332b4909b",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "tests/synthetic_adapter_smoke.py",
+    "release_sha256": "5d7cf2f430e20d66be72d735929eb57a261a8785a499977a9fdd196ed222098b",
+    "change": "release-only optional synthetic adapter test"
+  }
+]
