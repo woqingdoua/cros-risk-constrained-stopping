@@ -1,6 +1,6 @@
 # CROS: risk-constrained stopping for clinical diagnosis agents
 
-Research code for **Safe to Stop? Risk-Constrained Stopping for Sequential Clinical Diagnosis Agents**, Yuexin Wu and Vasile Rus, GenAI4Health 2026 (paper 98).
+Research code for **Safe to Stop? Risk-Constrained Stopping for Sequential Clinical Diagnosis Agents**, Yuexin Wu and Vasile Rus, GenAI4Health 2026 (paper 98). [Paper (arXiv)](https://arxiv.org/abs/2609.09678).
 
 CROS studies when a sequential diagnosis agent should stop, acquire another result, or defer. A development-fitted risk ranker defines threshold-and-horizon policies; deterministic policies and episode-level randomized mixtures trade diagnostic error, autonomous coverage, and acquisition cost. The retrospective experiment uses a fixed common information path from a Qwen2.5-7B-Instruct backbone adapted using an official-code-derived LA-CDM pipeline. It compares stopping and deferral decisions while holding the recorded diagnosis/acquisition trajectory fixed.
 
